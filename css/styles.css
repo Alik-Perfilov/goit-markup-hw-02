@@ -15,8 +15,14 @@ body {
   font-family: Roboto, sans-serif;
 }
 
-h1 {
+h3 {
   color: var(--title-text-color);
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
 }
 
 .list {
@@ -32,9 +38,9 @@ h1 {
   top: 24px;
   font-family: Raleway;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.19;
   letter-spacing: 0.03em;
   text-decoration: none;
 }
@@ -47,7 +53,7 @@ h1 {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
 }
@@ -67,7 +73,7 @@ h1 {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
 }
@@ -107,9 +113,9 @@ h1 {
   color: var(--title-text-color);
   font-family: inherit;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 14px;
-  line-height: 1, 14;
+  line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
@@ -119,7 +125,7 @@ h1 {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }
@@ -127,10 +133,20 @@ h1 {
 .section-title-second {
   font-family: inherit;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.17;
   text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+}
+
+.section-title-third {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--title-text-color);
 }
@@ -138,6 +154,7 @@ h1 {
 /*Sections*/
 
 .section-title-list {
+  font-family: inherit;
   list-style: none;
 }
 
@@ -146,7 +163,7 @@ h1 {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
 }
 
@@ -159,7 +176,13 @@ h1 {
 }
 
 address {
+  font-family: inherit;
   font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
 }
 
 .buttons-list {
@@ -170,16 +193,17 @@ address {
 .button.primary {
   color: var(--secondary-text-color);
   background-color: var(--accent-color);
-  width: 200px;
-  height: 50px;
-  left: 700px;
-  top: 430px;
+  font-weight: 700;
+  line-height: 1.87;
 }
 
 .button.secondary {
   color: var(--title-text-color);
-  background-color: var(--secondary-bg-color);
-  border-color: transparent;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  letter-spacing: 0.03em;
 }
 
 .button:hover,
@@ -189,9 +213,8 @@ address {
 }
 
 .button {
-  font-weight: 500;
+  font-family: inherit;
   font-size: 16px;
-  line-height: 1.63;
   letter-spacing: 0.03em;
   color: var(--title-color);
   cursor: pointer;
@@ -201,7 +224,7 @@ address {
 .header {
   font-weight: 600;
   font-size: 12px;
-  line-height: 16px;
+  line-height: 1.33;
   letter-spacing: 0.1em;
   background-color: var(--secondary-text-color);
 }
@@ -209,7 +232,7 @@ address {
 .footer {
   font-weight: 600;
   font-size: 12px;
-  line-height: 16px;
+  line-height: 1.33;
   letter-spacing: 0.1em;
   background-color: var(--hero-bg-color);
 }
